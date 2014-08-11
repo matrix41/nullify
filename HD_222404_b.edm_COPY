@@ -1,0 +1,10 @@
+USER:            raymond
+BUILD:           6.1
+DESCRIPTION:     Stellar/Planetary Parameters Additions and Updates
+FILETYPE:        edm
+FILENAME:        HD_222404_b.edm
+DATE:            2014-07-17 17:09:28
+#
+# Addition of Basic Stellar Parameters information
+#
+EDMT|star|51000067|add|teff 4744|tefferr1 21|tefferr2 -21|tefflim 0|logg null|loggerr1 null|loggerr2 null|logglim null|met null|meterr1 null|meterr2 null|metlim null|metratio null|lum 11.4|lumerr1 0.0|lumerr2 -0.0|lums null|lumserr1 null|lumserr2 null|lumlim 0|rad 5.01|raderr1 0.05|raderr2 -00.05|radlim 0|mass null|masserr1 null|masserr2 null|masslim null|density null|densityerr1 null|densityerr2 null|densitylim null|age null|ageerr1 null|ageerr2 null|agelim null|sparrefid -3|sparblend null|plxrefid null|
