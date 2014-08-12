@@ -62,7 +62,12 @@ foreach my $element (@array)
 	    {
 	      $superstring .= $split_parameters[$k]."|";
 	    }
+	    $superstring .= "\n"; # have to add this newline character 
         $array[$j] = $superstring;
+
+        #reset the $superstring for next iteration 
+        $superstring = '';
+
 	} # end of IF statement 
 	$j += 1;
 }
@@ -72,5 +77,4 @@ for ( my $m = 0 ; $m <= $#array ; $m++ )
 {
   print $fh2 $array[$m];
 }
-print $fh2 "\n";
 close ($fh2);
